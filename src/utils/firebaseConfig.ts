@@ -3,13 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore, collection } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDNkwUXJFMOOYjNpnTkrCo1Y9nCeTpFC04",
-  authDomain: "pokedex-fe543.firebaseapp.com",
-  projectId: "pokedex-fe543",
-  storageBucket: "pokedex-fe543.appspot.com",
-  messagingSenderId: "948503681986",
-  appId: "1:948503681986:web:79250d83d60f75960a545b",
-  measurementId: "G-4Z4DWLHXGS",
+  apiKey: "AIzaSyCKZq5Lro5vRQujOReRGqqLhiIFCzFMGJ8",
+  authDomain: "pokowebapp.firebaseapp.com",
+  projectId: "pokowebapp",
+  storageBucket: "pokowebapp.appspot.com",
+  messagingSenderId: "898771520496",
+  appId: "1:898771520496:web:4f8957185c8bd72f052b35",
 };
 
 const app = initializeApp(firebaseConfig);
